@@ -8,7 +8,7 @@ import java.util.List;
  * @date 2021/3/27
  */
 public class SimpleSubject implements Subject {
-    int value;
+    private int value;
     private final List<Observer> observers;
 
     public SimpleSubject() {
