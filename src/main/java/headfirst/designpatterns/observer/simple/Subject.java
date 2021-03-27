@@ -5,7 +5,7 @@ package headfirst.designpatterns.observer.simple;
  * @date 2021/3/27
  */
 public interface Subject {
-    void registerObserver(Observer o);
+    void addObserver(Observer o);
     void removeObserver(Observer o);
     void notifyObservers();
 }

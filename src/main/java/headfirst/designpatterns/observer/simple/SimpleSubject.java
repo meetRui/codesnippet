@@ -16,7 +16,7 @@ public class SimpleSubject implements Subject {
     }
 
     @Override
-    public void registerObserver(Observer o) {
+    public void addObserver(Observer o) {
         observers.add(o);
     }
 

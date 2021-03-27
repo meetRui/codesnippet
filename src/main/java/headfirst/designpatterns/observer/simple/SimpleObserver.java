@@ -9,7 +9,7 @@ public class SimpleObserver implements Observer, DisplayElement {
 
     @Override
     public void subscribe(Subject subject) {
-        subject.registerObserver(this);
+        subject.addObserver(this);
     }
 
     @Override
